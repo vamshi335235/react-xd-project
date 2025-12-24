@@ -1,0 +1,45 @@
+.btn {
+  border-radius: 12px;
+  border: none;
+  min-height: 44px;
+  padding: 14px 20px;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif;
+  cursor: pointer;
+  transition: background-color 0.15s ease, box-shadow 0.15s ease, transform 0.1s ease;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+}
+
+.btn--full {
+  width: 100%;
+}
+
+.btn--primary {
+  background-color: #7744ff;
+  color: #ffffff;
+  box-shadow: 0 8px 14px rgba(119, 68, 255, 0.35);
+}
+
+.btn--primary:active {
+  background-color: #6633f4;
+  transform: scale(0.98);
+}
+
+.btn--secondary {
+  background-color: #efe5ff;
+  color: #5530c7;
+}
+
+.btn--secondary:active {
+  background-color: #e1d4ff;
+  transform: scale(0.98);
+}
+
+.btn--ghost {
+  background-color: transparent;
+  color: #5530c7;
+}
+
+
